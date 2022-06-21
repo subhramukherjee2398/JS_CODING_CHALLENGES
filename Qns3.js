@@ -1,0 +1,21 @@
+/*  How To find second Largest value in array  */
+
+/*
+
+1: Find Largest
+2: Find IndexOf Largest
+3: Delete It from Array using splice()
+4: Agin find the largest.
+
+*/
+
+const nums = [99, 70, 5, 200, 111];
+
+function SecondLargest(arr) {
+  let index = arr.indexOf(Math.max(...arr));
+  arr.splice(index, 1);
+  console.log(arr);
+  console.log(Math.max(...arr));
+}
+
+SecondLargest(nums);
