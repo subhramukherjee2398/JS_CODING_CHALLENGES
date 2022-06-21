@@ -1,13 +1,14 @@
 /* how to find vowels from string in javascript */
 
-const countvowel = (str) =>{
-
-    let v  = ['a', 'e' , 'i' , 'o' , 'u']
-
-    for(let letter of str.toLowerCase()){
-        console.log(letter)
+const countvowel = (str) => {
+  let v = ["a", "e", "i", "o", "u"];
+  let count = 0;
+  for (let letter of str.toLowerCase()) {
+    if (v.includes(letter)) {
+      count++;
     }
+  }
+  return count;
+};
 
-}
-
-countvowel("Subhra");
+console.log(countvowel("aaaammmm"));
