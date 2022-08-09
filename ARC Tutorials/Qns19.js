@@ -9,3 +9,12 @@ function reverseEveryWord(str){
 }
 
 reverseEveryWord(Str)
+
+// mysolution :
+function reverseEveryWord2(str){
+  let j = []
+  str.split(" ").map((ele)=>{
+      j.push(ele.split("").reverse().join(""))
+      console.log (j.join(" "));
+  })
+}

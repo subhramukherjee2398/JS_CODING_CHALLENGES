@@ -12,7 +12,6 @@ class Car {
     console.log("My car is ",this.name)
   }
 
-
 }
 
  let Jeep = new Car("JEEP","JUV");
