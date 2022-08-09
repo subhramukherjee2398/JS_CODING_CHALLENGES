@@ -1,4 +1,5 @@
 
 var num = [1, 2, 3, 6, 7, 8];
-console.log(num.splice(2,1))
+(num.splice(2,2,100,200))
+console.log(num)
 
