@@ -9,7 +9,7 @@ var num = [1, 2, 3, 6, 7, 8];
  */
 
 function insertAt(array, index, ...elementsArray) {
-  array.splice(index, 0, ...elementsArray);  // (kothake theke nebo , kota number nbo , kia dd korbo jota khusi)
+  array.splice(index, 0, ...elementsArray);  // (kothake theke nebo , kota number bad dbo , kia dd korbo jota khusi)
 }
 
 insertAt(num, 3, 4, 5); // [1,2,3,4,5,6,7,8]
