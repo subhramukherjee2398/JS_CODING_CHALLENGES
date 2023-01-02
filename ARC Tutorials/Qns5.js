@@ -4,5 +4,4 @@ let v = "ACV";
 let k = 10.5
 
 
-console.log(!isNaN(v))
-console.log(!isNaN(k))
+console.log(Number.isInteger(v))
