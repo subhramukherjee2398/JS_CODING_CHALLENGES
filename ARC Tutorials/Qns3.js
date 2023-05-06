@@ -8,3 +8,4 @@ let dupicates = A.filter((ele,index,arr)=>{
 })
 
 console.log(dupicates)
+
